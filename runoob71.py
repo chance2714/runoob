@@ -1,4 +1,4 @@
 class student(object):
-    def student(self, name, **kw):
+    def student(self, name, *args):
         self.name = name
         
